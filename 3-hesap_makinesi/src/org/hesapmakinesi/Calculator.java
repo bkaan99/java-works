@@ -28,7 +28,7 @@ public class Calculator extends JFrame {
 			public void run() {
 				try {
 					Calculator frame = new Calculator();
-					frame.setVisible(true);
+					frame.setVisible(true); // bu komut true olması gerekli. Unutulursa program çalıştırıldığında pencere gözükmez.
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
